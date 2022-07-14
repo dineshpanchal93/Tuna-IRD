@@ -23,12 +23,7 @@ frappe.query_reports["Materialised View"] = {
 			"label": __("To Date"),
 			"fieldtype": "Date",
 			"default": frappe.datetime.get_today()
-		},
-		{
-			"fieldname": "show_cancelled_entries",
-			"label": __("Show Cancelled Entries"),
-			"fieldtype": "Check"
-		},	
+		}	
 
 	]
 };
