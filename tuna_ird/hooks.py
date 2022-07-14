@@ -102,6 +102,11 @@ app_license = "MIT"
 # 		"on_trash": "method"
 #	}
 # }
+doc_events = {
+	"Sales Invoice": {
+		"on_cancel": "tuna_ird.events.update_sales_invoice_oncancel",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
